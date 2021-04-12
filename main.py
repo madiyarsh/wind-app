@@ -16,7 +16,7 @@ wind = weather.get_wind()
 temp = weather.get_temperature(unit='celsius')
 cleaned_temp_data = (int(temp['temp']))
 
-print 'The temperature in', city ,'is',  cleaned_temp_data, "Celcius Degree"
+print ('The temperature in', city ,'is',  cleaned_temp_data, "Celcius Degree")
 print (wind)
 
 
